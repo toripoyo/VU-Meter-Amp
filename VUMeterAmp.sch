@@ -1384,4 +1384,14 @@ F 3 "" H 1525 2375 50  0001 C CNN
 	1    1525 2375
 	1    0    0    -1  
 $EndComp
+Text Notes 4625 3450 0    50   ~ 0
+7.43k\n---\n2.57k
+Text Notes 7800 3450 0    50   ~ 0
+4.7k
+Text Notes 1950 5275 0    50   ~ 0
+peak cut ±1V
+Text Notes 2175 5850 0    50   ~ 0
++0.4V
+Text Notes 3350 5850 0    50   ~ 0
+-0.4V
 $EndSCHEMATC
