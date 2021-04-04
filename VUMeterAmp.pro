@@ -1,4 +1,4 @@
-update=2020/12/27 1:36:34
+update=2021/03/19 23:18:18
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=./
+PlotDirectoryName=C:/Users/user1/GoogleDrive/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

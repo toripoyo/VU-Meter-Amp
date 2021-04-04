@@ -231,102 +231,6 @@ Wire Wire Line
 	8300 4150 8300 3875
 Wire Wire Line
 	8300 3875 8225 3875
-Wire Wire Line
-	7050 3775 7225 3775
-$Comp
-L Device:R_POT_TRIM RV?
-U 1 1 5FF19935
-P 6900 3775
-AR Path="/5FF19935" Ref="RV?"  Part="1" 
-AR Path="/5FED81BD/5FF19935" Ref="RV9"  Part="1" 
-F 0 "RV9" H 6830 3821 50  0000 R CNN
-F 1 "10k" H 6830 3730 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 6900 3775 50  0001 C CNN
-F 3 "~" H 6900 3775 50  0001 C CNN
-	1    6900 3775
-	1    0    0    -1  
-$EndComp
-Text GLabel 6775 3975 0    50   Input ~ 0
-Power_Neg
-Text GLabel 6775 3575 0    50   Input ~ 0
-Power_Pos
-Wire Wire Line
-	6775 3575 6900 3575
-Wire Wire Line
-	6900 3575 6900 3625
-Wire Wire Line
-	6775 3975 6900 3975
-Wire Wire Line
-	6900 3975 6900 3925
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
-U 1 1 5FF19941
-P 7875 5050
-AR Path="/5FF19941" Ref="J?"  Part="1" 
-AR Path="/5FED81BD/5FF19941" Ref="J7"  Part="1" 
-F 0 "J7" H 7925 5367 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 7925 5276 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 7875 5050 50  0001 C CNN
-F 3 "~" H 7875 5050 50  0001 C CNN
-	1    7875 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 7500 4950 0    50   Input ~ 0
-Power_Neg
-Wire Wire Line
-	7500 4950 7575 4950
-Wire Wire Line
-	7675 5250 7575 5250
-Wire Wire Line
-	7575 5250 7575 5150
-Connection ~ 7575 4950
-Wire Wire Line
-	7575 4950 7675 4950
-Wire Wire Line
-	7675 5050 7575 5050
-Connection ~ 7575 5050
-Wire Wire Line
-	7575 5050 7575 4950
-Wire Wire Line
-	7675 5150 7575 5150
-Connection ~ 7575 5150
-Wire Wire Line
-	7575 5150 7575 5050
-Wire Wire Line
-	8300 3875 8475 3875
-Wire Wire Line
-	8475 3875 8475 4950
-Wire Wire Line
-	8475 4950 8175 4950
-Connection ~ 8300 3875
-Wire Wire Line
-	8175 5050 8475 5050
-Wire Wire Line
-	8475 5050 8475 4950
-Connection ~ 8475 4950
-Wire Wire Line
-	8175 5150 8475 5150
-Wire Wire Line
-	8475 5150 8475 5050
-Connection ~ 8475 5050
-Wire Wire Line
-	8175 5250 8475 5250
-Wire Wire Line
-	8475 5250 8475 5150
-Connection ~ 8475 5150
-Text Notes 8125 3775 0    50   ~ 0
-Light Out
-$Comp
-L Device:C C17
-U 1 1 600ADE6E
-P 7225 4100
-F 0 "C17" H 7340 4146 50  0000 L CNN
-F 1 "0.1u" H 7340 4055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7263 3950 50  0001 C CNN
-F 3 "~" H 7225 4100 50  0001 C CNN
-	1    7225 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR022
 U 1 1 600AEFB4
@@ -338,13 +242,6 @@ F 3 "" H 7225 4325 50  0001 C CNN
 	1    7225 4325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7225 4325 7225 4250
-Wire Wire Line
-	7225 3950 7225 3775
-Connection ~ 7225 3775
-Wire Wire Line
-	7225 3775 7625 3775
 $Comp
 L Device:C C9
 U 1 1 600B5898
@@ -564,4 +461,63 @@ Wire Wire Line
 	2525 1650 2525 1750
 Wire Wire Line
 	2525 1750 2650 1750
+Wire Wire Line
+	2950 6475 3250 6475
+Wire Wire Line
+	3250 6475 3250 6375
+Connection ~ 3250 6375
+Wire Wire Line
+	2950 6375 3250 6375
+Wire Wire Line
+	3250 6375 3250 6275
+Wire Wire Line
+	3250 6275 3250 6175
+Connection ~ 3250 6275
+Wire Wire Line
+	2950 6275 3250 6275
+Wire Wire Line
+	3250 6175 2950 6175
+Wire Wire Line
+	2450 6375 2350 6375
+Wire Wire Line
+	2350 6375 2350 6275
+Wire Wire Line
+	2350 6275 2350 6175
+Connection ~ 2350 6275
+Wire Wire Line
+	2450 6275 2350 6275
+Wire Wire Line
+	2350 6175 2450 6175
+Connection ~ 2350 6375
+Wire Wire Line
+	2350 6475 2350 6375
+Wire Wire Line
+	2450 6475 2350 6475
+Connection ~ 2350 6175
+Wire Wire Line
+	2275 6175 2350 6175
+Text GLabel 2275 6175 0    50   Input ~ 0
+Power_Neg
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J?
+U 1 1 5FF19941
+P 2650 6275
+AR Path="/5FF19941" Ref="J?"  Part="1" 
+AR Path="/5FED81BD/5FF19941" Ref="J7"  Part="1" 
+F 0 "J7" H 2700 6592 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 2700 6501 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 2650 6275 50  0001 C CNN
+F 3 "~" H 2650 6275 50  0001 C CNN
+	1    2650 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7225 3775 7625 3775
+Wire Wire Line
+	7225 3775 7225 4325
+Text GLabel 3325 6175 2    50   Input ~ 0
+Power_Pos
+Wire Wire Line
+	3325 6175 3250 6175
+Connection ~ 3250 6175
 $EndSCHEMATC
